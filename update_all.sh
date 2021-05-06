@@ -75,7 +75,7 @@ SCRIPT_PATH="/tmp/${ORIGINAL_SCRIPT_PATH/*\//}"
 rm ${SCRIPT_PATH} 2> /dev/null || true
 
 if [[ "${DEBUG_UPDATER:-false}" != "true" ]] || [ ! -f dont_download.sh ] ; then
-    REPOSITORY_URL="https://github.com/theypsilon/Update_All_MiSTer"
+    REPOSITORY_URL="https://github.com/antony30bc/Update_All_MiSTer"
     echo "Downloading"
     echo "${REPOSITORY_URL}"
     echo ""
